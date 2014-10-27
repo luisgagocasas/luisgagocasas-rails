@@ -1,0 +1,33 @@
+block hola
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		block titulo
+			title Luis Gago Casas
+		link(rel="stylesheet", href="css/estilos.css")
+	body
+		.wrapper
+			header.header
+				.portada
+					.soyyo
+						h2.soy Hola soy
+						h1.luisgago Luis Gago Casas
+				.cabecera#aflotar
+					.conteiner
+						a(href="/" class="logo")
+						nav.menu
+							ul.lista
+								li.tab
+									a(href="/") Yo
+								li.tab
+									a(href="/habilidades") Mis Habilidades
+								li.tab
+									a(href="/experiencias") Experiencias
+								li.tab
+									a(href="/blog") Blog
+								li.tab
+									a(href="/amigos") Amigos
+			block contenido
+				.contenido
+	script(src="js/main.min.js")

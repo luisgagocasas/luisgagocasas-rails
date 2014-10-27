@@ -1,0 +1,170 @@
+@css {
+/*  CSS3 Clases - Luis Gago Casas */
+}
+@import 'nib/vendor'
+vendor-prefixes = o ms moz webkit
+@font-face
+	font-family 'Open Sans'
+	font-style normal
+	font-weight 400
+	src local('Open Sans'), local('Open Sans'), url("../fonts/opensans.woff") format('woff')
+@font-face
+	font-family 'Josefin Slab'
+	font-style normal
+	font-weight 400
+	src local('Josefin Slab'), local('JosefinSlab'), url("../fonts/Josefin_Slab.woff") format('woff')
+border-radius()
+	-webkit-border-radius arguments
+	-moz-border-radius arguments
+	ms-border-radius arguments
+	o-border-radius arguments
+	border-radius arguments
+appearance()
+	-webkit-appearance arguments
+	-moz-appearance arguments
+	ms-appearance arguments
+	o-appearance arguments
+	appearance arguments
+box-shadow()
+	-webkit-box-shadow arguments
+	-moz-box-shadow arguments
+	ms-box-shadow arguments
+	o-box-shadow arguments
+	box-shadow arguments
+transform()
+	-webkit-transform arguments
+	-moz-transform arguments
+	ms-transform arguments
+	o-transform arguments
+	transform arguments
+transition()
+	-webkit-transition arguments
+	-moz-transition arguments
+	ms-transition arguments
+	o-transition arguments
+	transition arguments
+zoom()
+	-ms-zoom arguments
+	-webkit-zoom arguments
+	zoom arguments
+background-size()
+	-webkit-background-size arguments
+	-moz-background-size arguments
+	ms-background-size arguments
+	o-background-size arguments
+	background-size arguments
+body
+	background-color #45505c
+	font-family 'Open Sans',Arial,Sans-serif;
+	font-size 16px
+	color #FFF
+*
+	margin 0
+a
+	color #FFF
+	text-decoration none
+ul
+	margin 0px
+	padding 0px 0px 0px 15px
+li
+	list-style none
+.wrapper
+	margin 0 auto
+	position relative
+.header
+	background-color #31AEE9
+	margin 0 auto
+	color #fff
+	.cabecera
+		height 50px
+		.conteiner
+			max-width 1000px
+			margin 0 auto
+			position relative
+.cabecera
+	background #af3d3d
+	border-top 5px solid #99865C
+	.logo
+		float left
+		height inherit
+		line-height 55px
+		position relative
+		z-index 7
+.menu
+	margin 0 auto
+	position absolute
+	top 0
+	left 0
+	right 0
+	z-index 6
+	height inherit
+	.lista
+		font-size 0
+		padding 0
+		text-align right
+		.tab
+			display inline-block
+			zoom 1
+			-moz-transform scale(1,1)
+			-moz-transform-origin left center
+			font-size 14px
+			// font-weight: 600
+			height 50px
+			text-align center
+			text-transform uppercase
+			vertical-align top
+			a
+				// border-radius 5px 5px 0 0
+				color #fff
+				display block
+				height 50px
+				line-height 50px
+				// margin-top 5px
+				padding 0 20px
+				text-align center
+				transition .2s background
+			&:hover a, &.active
+				background #99865C
+.portada
+	background url("../img/header.png") no-repeat left
+	background-size  500px auto
+	margin 0px auto 0px auto
+	position relative
+	height 300px
+	max-width 1000px
+.soyyo
+	position absolute
+	top 70px
+	right 0
+	.luisgago
+		font-size 3.5em
+		text-shadow 4px 3px 0px #1F86A6, 9px 8px 0px rgba(0, 0, 0, 0.15)
+	.soy
+		font-size 2.5em
+		text-align right
+		padding 0px 55px 0px 0px
+		font-family 'Josefin Slab', serif
+.flotante
+	box-shadow 0 1px 5px #000
+	position fixed
+	z-index 99
+	left 0
+	right 0
+	top 0
+	border-top 0px
+//Comunes
+.center
+	text-align center
+.contenido
+	margin 0px auto 0px auto
+	position relative
+	max-width 1000px
+.contenido_mensaje
+	margin: 15% auto 10% auto
+	text-align center
+.error404
+	font-size 8em
+	transform rotate(-25deg)
+	display inline-block
+	color #fff
+	text-shadow 1px 1px 5px #000
